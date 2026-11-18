@@ -1,0 +1,21 @@
+Package: m6APrediction
+Type: Package
+Title: m6A Site Prediction from Sequence and Genomic Features
+Version: 1.0.0
+Authors@R: 
+    person(given = "Keyue", family = "Lei",
+           email = "keyue.lei24@student.xjtlu.edu.cn",
+           role = c("aut", "cre"))
+Description: Predicts N6-methyladenosine (m6A) sites from RNA sequence and
+    genomic features using a bundled random forest classifier. The package
+    provides a batch prediction function for a feature table and a
+    convenience function for a single candidate site, each returning the
+    predicted m6A probability and a Positive/Negative status.
+License: MIT + file LICENSE
+Depends: R (>= 3.5.0)
+Imports: 
+    randomForest,
+    stats
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
